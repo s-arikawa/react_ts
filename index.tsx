@@ -4,9 +4,9 @@ import Thead from './table/thead'
 import Tbody from './table/tbody'
 
 const Component: React.FC = () => (
-  <div class="container">
+  <div className={"container clearfix"}>
     <h1>健康に関する調査</h1>
-    <table class="table">
+    <table className={"table"}>
       <Thead />
       <Tbody rows={rows} />
     </table>
