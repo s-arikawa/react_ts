@@ -4,11 +4,11 @@ import Thead from './table/thead'
 import Tbody from './table/tbody'
 
 const Component: React.FC = () => (
-  <div>
+  <div class="container">
     <h1>健康に関する調査</h1>
-    <table>
-      <Thead/>
-      <Tbody rows={rows}/>
+    <table class="table">
+      <Thead />
+      <Tbody rows={rows} />
     </table>
   </div>
 )

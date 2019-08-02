@@ -7,7 +7,7 @@ export const rows: Rows = [
   {
     id: 'up30-un40',
     generation: '30~40歳',
-    answers: [0.12, 0.28, 0.42, 0.18]
+    answers: [0.12, 0.281, 0.42, 0.18]
   }
 ]
 export type Row = {
